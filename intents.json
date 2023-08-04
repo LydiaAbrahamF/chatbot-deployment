@@ -1,22 +1,155 @@
 {
   "intents": [
     {
-      "tag": "greeting",
-      "patterns": [
-        "Hi",
-        "Hey",
-        "How are you",
-        "Is anyone there?",
-        "Hello",
-        "Good day"
+      "tag": "Definition",
+      "patterns": ["Unyanyasaji wa nyumbani ni nini?"
       ],
-      "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+      "responses": ["Vurugu za nyumbani ni mtindo wa tabia unaotumiwa na mtu mmoja kupata mamlaka na udhibiti."
       ]
     },
+    {
+      "tag": "Types",
+      "patterns": ["Je, ni aina gani tofauti za unyanyasaji wa nyumbani?"
+      ],
+      "responses": ["Aina tofauti za unyanyasaji wa nyumbani ni pamoja na unyanyasaji wa kimwili, unyanyasaji wa kihisia, unyanyasaji wa kijinsia, unyanyasaji wa kifedha, na unyanyasaji wa kisaikolojia."
+      ]
+    },
+    {
+      "tag": "Red Flag",
+      "patterns": ["Je! ni ishara gani za onyo za unyanyasaji wa nyumbani?", "Ni bendera gani nyekundu ninapaswa kutafuta?"
+      ],
+      "responses": ["Dalili za onyo za unyanyasaji wa nyumbani ni pamoja na wivu, kumiliki, kudhibiti tabia, kujitenga, matusi, na unyanyasaji wa kimwili."
+      ]
+    },
+    {
+      "tag": "suspision",
+      "patterns": ["Nifanye nini ikiwa ninashuku kuwa mtu fulani ni mwathirika wa unyanyasaji wa nyumbani?"
+      ],
+      "responses": ["Ikiwa unashuku kuwa mtu fulani ni mhasiriwa wa unyanyasaji wa nyumbani, unapaswa kutoa usaidizi na nyenzo, usikilize bila hukumu, na uwahimize kutafuta msaada."
+      ]
+    },
+    {
+      "tag": "Victim",
+      "patterns": ["Nifanye nini ikiwa mimi ni mwathirika wa unyanyasaji wa nyumbani?"
+      ],
+      "responses": ["Ikiwa wewe ni mhasiriwa wa unyanyasaji wa nyumbani, unapaswa kutafuta usaidizi kutoka kwa simu ya dharura ya unyanyasaji wa nyumbani, makao, au mshauri. Unapaswa pia kuunda mpango wa usalama na kuzingatia kupata amri ya kuzuia."
+      ]
+    },
+   
+    {
+      "tag": "Safetyplans",
+      "patterns": ["Mpango wa usalama ni nini?"
+      ],
+      "responses": ["Mpango wa usalama ni mpango uliobinafsishwa unaowasaidia waathiriwa wa unyanyasaji wa nyumbani kuwa salama na kujilinda wao na watoto wao dhidi ya unyanyasaji zaidi"
+      ]
+    },
+   
+    {
+      "tag": "Help",
+      "patterns": ["Ninaweza kumsaidiaje rafiki ambaye ameathiriwa na jeuri ya nyumbani?"
+      ],
+      "responses": ["Unaweza kumsaidia rafiki ambaye ni mhasiriwa wa unyanyasaji wa nyumbani kwa kutoa usaidizi na nyenzo, kusikiliza bila hukumu, na kuwatia moyo kutafuta msaada."
+      ]
+    },
+    {
+      "tag": "Effects",
+      "patterns": ["Ni nini athari za muda mrefu za unyanyasaji wa nyumbani?"
+      ],
+      "responses": ["Madhara ya muda mrefu ya unyanyasaji wa nyumbani yanaweza kujumuisha majeraha ya kimwili, masuala ya afya ya akili, matumizi mabaya ya dawa za kulevya, na matatizo ya kifedha."
+      ]
+    },
+   
+    {
+      "tag": "LegalConsequences",
+      "patterns": ["Ni nini matokeo ya kisheria ya unyanyasaji wa nyumbani?"
+      ],
+      "responses": ["Madhara ya kisheria ya unyanyasaji wa nyumbani yanaweza kujumuisha kukamatwa, kufungwa jela, faini na rekodi ya uhalifu."
+      ]
+    },
+   
+    {
+      "tag": "Prevention",
+      "patterns": ["Tunaweza kuzuiaje unyanyasaji wa nyumbani?"
+      ],
+      "responses": ["Tunaweza kuzuia unyanyasaji wa nyumbani kwa kukuza mahusiano mazuri, kuwaelimisha watu kuhusu ishara za onyo za unyanyasaji, na kuwawajibisha wanyanyasaji kwa matendo yao."
+      ]
+    },
+    {
+      "tag": "Nkowasi",
+      "patterns": ["Gịnị bụ ime ihe ike n'ezinụlọ?"
+      ],
+      "responses": ["Ime ihe ike n'ụlọ bụ usoro omume nke otu onye mmadụ ji eme ihe iji nweta ike na ịchịkwa onye ọzọ na mmekọrịta chiri anya."
+      ]
+    },
+    {
+      "tag": "ụdị",
+      "patterns": ["Kedu ụdị ihe ike dị iche iche n'ụlọ?"
+      ],
+      "responses": ["Dị iche iche nke ime ihe ike n'ụlọ na-agụnye mmegbu, mmetọ mmetụta uche, mmetọ mmekọahụ, mmetọ uche, na nke metụtara mmụọ."
+      ]
+    },
+    {
+      "tag": "ihe ịrịba ama",
+      "patterns": ["Gịnị bụ ihe ịrịba ama ịdọ aka ná ntị nke ime ihe ike n'ụlọ?"
+      ],
+      "responses": ["Agedọ aka na ntị banyere ime ihe ike n'ụlọ gụnyere ekworo, nwekwaa akparamagwa, ịnọpụ iche, mkparị, na ime ihe ike."
+      ]
+    },
+    {
+      "tag": "nrutuaka",
+      "patterns": ["Kedu ihe m ga - eme ma ọ bụrụ na m na - eche na m na - eme ihe ike n'ezinụlọ?"
+      ],
+      "responses": ["Ọ bụrụ na ị na-eche na onye na-eme ihe ike n'ụlọ, ị ga-enye ndị na-akwado ya na akụ, gee ntị n'enweghị ikpe, ma gbaa ha ume ịchọ enyemaka."
+      ]
+    },
+    {
+      "tag": "Nwaanyi ihe meturu",
+      "patterns": ["Gịnị ka m ga-eme ma ọ bụrụ na m bụ onye na-eme ihe ike n'ezinụlọ?"
+      ],
+      "responses": ["Ọ bụrụ na egburu gị nke ime ihe ike n'ụlọ, ịkwesịrị ịchọ enyemaka site na ime ihe ike ụlọ, ebe obibi, ma ọ bụ onye ndụmọdụ.Ikwesiri imepụta atụmatụ nchekwa ma na-atụle inweta usoro igbochi."
+      ]
+    },
+   
+    {
+      "tag": "Mojevashion",
+      "patterns": ["Gịnị bụ atụmatụ nchekwa?"
+      ],
+      "responses": ["Atụmatụ nchekwa bụ atụmatụ ahaziri ahazi nke na-enyere ndị aka ime ihe ike n'ezi ihe ike na nchekwa onwe ha na ụmụ ha aka imetọ ndị ọzọ."
+      ]
+    },
+   
+    {
+      "tag": "Enyemaka",
+      "patterns": ["Olee otú m ga-esi nyere enyi ya bụ onye na-eme ihe ike jikọrọ aka aka?"
+      ],
+      "responses": ["I nwere ike inyere enyi ya bụ onye e ji eme ihe ike n'ime ụlọ site n'ịzụnye nkwado na akụ, na-ege ha ntị n'enweghị ikpe, ma gbaa ha ume ka ha chọọ enyemaka."
+      ]
+    },
+   
+    {
+      "tag": "Mmetụta",
+      "patterns": ["Kedu ihe bụ oge ime ihe ike n'ụlọ?"
+      ],
+      "responses": ["Onwe-ogologo oge nke ime ihe ike n'ụlọ nwere ike ịgụnye mmerụ ahụ nkịtị, nsogbu ahụike uche, iji ike ọgwụgwụ, na nsogbu ego."
+      ]
+    },
+   
+    {
+      "tag": "Ngosipụta iwu",
+      "patterns": ["Gịnị bụ nsonaazụ nke ime ihe ike n'ụlọ?"
+      ],
+      "responses": ["Mmezi ihe omume dị n'ụlọ nwere ike ịgụnye njide, ụlọ mkpọrọ, ego, na ndekọ na onye omekome."
+      ]
+    },
+   
+    {
+      "tag": "Mgbochi",
+      "patterns": ["Kedụ ka anyị ga - esi gbochie ime ihe ike n'ezinụlọ?"
+      ],
+      "responses": ["Anyị nwere ike igbochi ime ihe ike n'ụlọ site na ịkwalite mmekọrịta dị mma, ịkụziri ndị mmadụ banyere ihe mgbaàmà ịdọ aka ná ntị, na ijide ndị na-eme ihe ga-aza ajụjụ maka omume ha."
+      ]
+    },
+
     {
       "tag": "goodbye",
       "patterns": ["Bye", "See you later", "Goodbye"],
@@ -26,12 +159,276 @@
         "Bye! Come back again soon."
       ]
     },
-    {
+    
+{
+  "tag": "Definition",
+  "patterns": ["Menene tashin hankali na cikin gida?"        
+  ],
+  "responses": ["Rikicin cikin gida wani tsari ne na halayyar mutum da mutum yayi amfani da shi don samun iko da iko akan wani mutum a cikin kusancin dangantaka. "
+  ]
+},
+{
+  "tag": "Types",
+  "patterns": ["Menene nau'ikan tashin hankali na cikin gida?"        
+  ],
+  "responses": ["Daban-daban nau'ikan tashin hankali na cikin gida sun hada da cin zarafin jiki, cin zarafin tunani, cin zarafin jima'i, cin zarafin kuɗi, da cin zarafin tunani. "
+  ]
+},
+{
+  "tag": "Red Flag",
+  "patterns": ["Menene alamun gargaɗin tashin hankali na cikin gida?"        
+  ],
+  "responses": ["Alamar gargadi game da tashin hankali na cikin gida sun hada da kishi, mallaka, sarrafa hali, warewa, cin zarafin baki, da tashin hankali na jiki. "
+  ]
+},
+{
+  "tag": "suspision",
+  "patterns": ["Me zan yi idan na yi zargin wani wanda aka azabtar da rikicin cikin gida?"        
+  ],
+  "responses": ["Alamar gargadi game da tashin hankali na cikin gida sun hada da kishi, mallaka, sarrafa hali, warewa, cin zarafin baki, da tashin hankali na jiki."
+  ]
+},
+{
+  "tag": "Victim",
+  "patterns": ["Me zan yi idan na kasance wanda aka azabtar da tashin hankali a cikin gida?"        
+  ],
+  "responses": ["Idan kai wanda aka azabtar da tashin hankali a cikin gida, ya kamata ka nemi taimako daga layin tashin hankali na cikin gida, tsari, ko mai ba da shawara. Hakanan ya kamata ku ƙirƙiri shirin aminci kuma kuyi la'akari da samun umarnin hanawa."
+  ]
+},
+
+{
+  "tag": "Safetyplans",
+  "patterns": ["Menene shirin aminci?"        
+  ],
+  "responses": ["Tsarin aminci tsari ne na mutum wanda ke taimaka wa wadanda rikicin ya ritsa da su cikin gida su kasance cikin aminci kuma su kare kansu da yaransu daga ci gaba da cin zarafi."
+  ]
+},
+
+{
+  "tag": "Help",
+  "patterns": ["Ta yaya zan iya taimaka wa aboki wanda ke fama da tashin hankali a cikin gida?      "        
+  ],
+  "responses": ["Kuna iya taimaka wa aboki wanda aka azabtar da tashin hankali na cikin gida ta hanyar bayar da tallafi da albarkatu, saurare ba tare da yanke hukunci ba, da ƙarfafa su don neman taimako.      "
+  ]
+},
+
+{
+  "tag": "Effects",
+  "patterns": ["Menene tasirin tashin hankali na cikin gida?      "        
+  ],
+  "responses": ["Sakamakon tashe-tashen hankula na cikin gida na iya haɗawa da raunin jiki, abubuwan da suka shafi lafiyar kwakwalwa, cin zarafin abubuwa, da matsalolin kuɗi.      "
+  ]
+},
+
+{
+  "tag": "LegalConsequesnce",
+  "patterns": ["Menene sakamakon shari'a na tashin hankali na cikin gida?      "        
+  ],
+  "responses": ["Sakamakon shari'a na tashin hankali na cikin gida na iya haɗawa da kamawa, lokacin kurkuku, tara kuɗi, da rikodin laifi.      "
+  ]
+},
+
+{
+  "tag": "Prevention",
+  "patterns": ["Ta yaya zamu iya hana tashin hankali a cikin gida? "        
+  ],
+  "responses": ["Zamu iya hana tashin hankali a cikin gida ta hanyar inganta ingantacciyar dangantaka, ilmantar da mutane game da alamun gargadi na cin zarafi, da kuma sanya masu cin zarafin yin hisabi game da ayyukansu.      "
+  ]
+},
+
+{
+  "tag": "Cycle",
+  "patterns": ["Menene sake zagayowar tashin hankali na gida?      "        
+  ],
+  "responses": ["Tsarin tashin hankali na cikin gida wani tsari ne na halayyar da ya hada da ginin tashin hankali, wani lamari mai cin mutunci, sulhu, da kuma lokacin kwanciyar hankali.      "
+  ]
+},
+
+{
+  "tag": "Impact",
+  "patterns": ["Menene tasirin tashin hankali na cikin gida akan wanda aka azabtar?      "        
+  ],
+  "responses": ["Tasirin tashin hankali na cikin gida akan wanda aka azabtar na iya haɗawa da raunin jiki, abubuwan da suka shafi lafiyar kwakwalwa, da matsalolin kuɗi.      "
+  ]
+},
+
+{
+  "tag": "Hotline",
+  "patterns": ["Menene layin tashin hankali na cikin gida? "        
+  ],
+  "responses": ["Layin tashin hankali na cikin gida shine lambar waya wanda waɗanda ke fama da tashin hankali na cikin gida na iya kira don samun taimako da tallafi..      "
+  ]
+},
+
+ {
+  "tag": "NationalHotline",
+  "patterns": ["Menene Hoton Rikicin Cikin Gida na Kasa?      "        
+  ],
+  "responses": ["Hotline na Rikicin Cikin Gida shine layin 24/7 wanda ke ba da tallafi da albarkatu ga waɗanda rikicin ya ritsa da su.      "
+  ]
+},
+
+{
+  "tag": "Women Act",
+  "patterns": ["Menene Rikicin Dokar Mata?      "        
+  ],
+  "responses": ["Rikici da Dokar Mata wata doka ce ta tarayya wacce ke ba da kudade don shirye-shiryen da ke tallafawa wadanda rikicin ya ritsa da su.      "
+  ]
+},
+
+{
+  "tag": "Court Role",
+  "patterns": ["Menene aikin kotu a shari'ar tashin hankali na cikin gida?      "        
+  ],
+  "responses": ["Matsayin kotu a shari'ar tashin hankali na cikin gida shine fitar da umarni na hanawa, gurfanar da masu cin zarafin, da kare wanda aka azabtar.      "
+  ]
+},
+
+{
+  "tag": "Community Role",
+  "patterns": ["Menene rawar da al'umma ke takawa a cikin tashin hankali na cikin gida? "        
+  ],
+  "responses": ["Matsayi na al'umma a cikin rikice-rikicen cikin gida shine tallafawa wadanda rikicin ya ritsa da su da kuma inganta kokarin rigakafin.      "
+  ]
+},
+
+{
       "tag": "thanks",
       "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
+      "tag": "Definition",
+      "patterns": ["Qu'est-ce que la violence domestique?"        
+      ],
+      "responses": ["La violence domestique est un mod¨¨le de comportement utilis¨¦ par une personne pour obtenir le pouvoir et le contr?le sur une autre personne dans une relation intime."
+      ]
+    },
+    {
+      "tag": "Types",
+      "patterns": ["Quels sont les diff¨¦rents types de violence domestique?"        
+      ],
+      "responses": ["Les diff¨¦rents types de violence domestique comprennent les abus physiques, les abus ¨¦motionnels, les abus sexuels, les abus financiers et les abus psychologiques."
+      ]
+    },
+    {
+      "tag": "Red Flag",
+      "patterns": ["Quels sont les signes d'avertissement de la violence domestique?"
+      ],
+      "responses": ["Les signes d'avertissement de violence domestique incluent la jalousie, la possessivit¨¦, le contr?le du comportement, l'isolation, l'abus verbal et la violence physique."
+      ]
+    },
+    {
+      "tag": "suspision",
+      "patterns": ["Que dois-je faire si je soup?onne que quelqu'un est victime de violence domestique?"        
+      ],
+      "responses": ["Si vous pensez que quelqu'un est victime de violence domestique, vous devriez offrir un soutien et des ressources, ¨¦couter sans jugement et les encourager ¨¤ chercher de l'aide."
+      ]
+    },
+    {
+      "tag": "Victim",
+      "patterns": ["Que dois-je faire si je suis victime de violence domestique?"        
+      ],
+      "responses": ["Si vous ¨ºtes victime de violence domestique, vous devriez demander de l'aide ¨¤ une hotline de violence domestique, ¨¤ un abri ou ¨¤ un conseiller. Vous devez ¨¦galement cr¨¦er un plan de s¨¦curit¨¦ et envisager d'obtenir une ordonnance restrictive."
+      ]
+    },
+    
+    {
+      "tag": "Safetyplans",
+      "patterns": ["C'est quoi un plan de s¨¦curit¨¦ ?"        
+      ],
+      "responses": ["Un plan de s¨¦curit¨¦ est un plan personnalis¨¦ qui aide les victimes de la violence domestique ¨¤ rester en s¨¦curit¨¦ et ¨¤ se prot¨¦ger eux-m¨ºmes et leurs enfants contre d'autres abus."
+      ]
+    },
+    
+    {
+      "tag": "Help",
+      "patterns": ["Comment puis-je aider un ami victime de violence domestique?"        
+      ],
+      "responses": ["Vous pouvez aider un ami qui est victime de violence domestique en offrant du soutien et des ressources, en ¨¦coutant sans jugement et en les encourageant ¨¤ chercher de l'aide. "
+      ]
+    },
+    
+    {
+      "tag": "Effects",
+      "patterns": ["Quels sont les effets ¨¤ long terme de la violence domestique? "        
+      ],
+      "responses": ["Les effets ¨¤ long terme de la violence domestique peuvent inclure des blessures physiques, des probl¨¨mes de sant¨¦ mentale, des abus de substances et des probl¨¨mes financiers. "
+      ]
+    },
+    
+    {
+      "tag": "LegalConsequesnce",
+      "patterns": ["Quelles sont les cons¨¦quences juridiques de la violence domestique? "        
+      ],
+      "responses": ["Les cons¨¦quences juridiques de la violence domestique peuvent inclure l'arrestation, la prison, les amendes et un casier judiciaire."
+      ]
+    },
+    
+    {
+      "tag": "Prevention",
+      "patterns": ["Comment pr¨¦venir la violence domestique ? "        
+      ],
+      "responses": ["Nous pouvons emp¨ºcher la violence domestique en promouvant des relations saines, en ¨¦duquant les gens sur les signes d'avertissement d'abus et en tenant les abuseurs responsables de leurs actions. "
+      ]
+    },
+
+ {
+      "tag": "Cycle",
+      "patterns": ["Quel est le cycle de la violence domestique? "        
+      ],
+      "responses": ["Le cycle de la violence domestique est un mod¨¨le de comportement qui comprend la construction de tension, un incident abusif, la r¨¦conciliation et une p¨¦riode calme."
+      ]
+    },
+
+ {
+      "tag": "Impact",
+      "patterns": ["Quel est l'impact de la violence domestique sur la victime? "        
+      ],
+      "responses": ["L'impact de la violence domestique sur la victime peut inclure des blessures physiques, des probl¨¨mes de sant¨¦ mentale et des probl¨¨mes financiers. "
+      ]
+    },
+
+ {
+      "tag": "Hotline",
+      "patterns": ["Qu'est-ce qu'une hotline de violence domestique?"        
+      ],
+      "responses": ["Une hotline de violence domestique est un num¨¦ro de t¨¦l¨¦phone que les victimes de la violence domestique peuvent appeler pour obtenir de l'aide et du soutien. "
+      ]
+    },
+
+ {
+      "tag": "NationalHotline",
+      "patterns": ["Qu'est-ce que la violence nationale domestique Hotline?"        
+      ],
+      "responses": ["La Hotline nationale de la Violence domestique est une hotline de 24/7 qui fournit un soutien et des ressources aux victimes de la violence domestique."
+      ]
+    },
+
+{
+      "tag": "Women Act",
+      "patterns": ["Quelle est la loi sur la violence ¨¤ l'¨¦gard des femmes? "        
+      ],
+      "responses": ["La loi sur la violence ¨¤ l'¨¦gard des femmes est une loi f¨¦d¨¦rale qui fournit un financement pour des programmes qui soutiennent les victimes de la violence domestique."
+      ]
+    },
+
+{
+      "tag": "Court Role",
+      "patterns": ["Quel est le r?le du tribunal dans les affaires de violence domestique? "        
+      ],
+      "responses": ["Le r?le du tribunal dans les affaires de violence domestique est d'¨¦mettre des ordonnances restrictives, de poursuivre les agresseurs et de prot¨¦ger la victime."
+      ]
+    },
+
+{
+      "tag": "Community Role",
+      "patterns": ["Quel est le r?le de la communaut¨¦ dans les affaires de violence domestique?"        
+      ],
+      "responses": ["Le r?le de la communaut¨¦ dans les affaires de violence domestique est de soutenir les victimes de violence domestique et de promouvoir les efforts de pr¨¦vention."
+      ]
+    },
+{
       "tag": "items",
       "patterns": [
         "Which items do you have?",
@@ -79,6 +476,221 @@
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
         "What did the buffalo say when his son left for college? Bison."
       ]
+    },
+    {
+      "tag": "Greetings",
+      "patterns": ["Hello", "Help", "Hey there!", ""        
+      ],
+      "responses": ["Hello! How can I help you? "
+      ]
+    },
+    {
+      "tag": "Definition",
+      "patterns": ["What is domestic violence?"        
+      ],
+      "responses": ["Domestic violence is a pattern of behavior used by one person to gain power and control. "
+      ]
+    },
+    {
+      "tag": "Types",
+      "patterns": ["What are the different types of domestic violence?"        
+      ],
+      "responses": ["The different types of domestic violence include physical abuse, emotional abuse, sexual abuse, financial abuse, and psychological abuse. "
+      ]
+    },
+    {
+      "tag": "Red Flag",
+      "patterns": ["What are the warning signs of domestic violence?", "What red flags should I look for?"        
+      ],
+      "responses": ["The warning signs of domestic violence include jealousy, possessiveness, controlling behavior, isolation, verbal abuse, and physical violence. "
+      ]
+    },
+    {
+      "tag": "suspision",
+      "patterns": ["What should I do if I suspect someone is a victim of domestic violence?"        
+      ],
+      "responses": ["If you suspect someone is a victim of domestic violence, you should offer support and resources, listen without judgment, and encourage them to seek help."
+      ]
+    },
+    {
+      "tag": "Victim",
+      "patterns": ["What should I do if I am a victim of domestic violence?"        
+      ],
+      "responses": ["If you are a victim of domestic violence, you should seek help from a domestic violence hotline, a shelter, or a counselor. You should also create a safety plan and consider getting a restraining order."
+      ]
+    },
+    
+    {
+      "tag": "Safetyplans",
+      "patterns": ["What is a safety plan?"        
+      ],
+      "responses": ["A safety plan is a personalized plan that helps victims of domestic violence stay safe and protect themselves and their children from further abuse"
+      ]
+    },
+    
+    {
+      "tag": "Help",
+      "patterns": ["How can I help a friend who is a victim of domestic violence?      "        
+      ],
+      "responses": ["You can help a friend who is a victim of domestic violence by offering support and resources, listening without judgment, and encouraging them to seek help.      "
+      ]
+    },
+    
+    {
+      "tag": "Effects",
+      "patterns": ["What are the long-term effects of domestic violence?      "        
+      ],
+      "responses": ["The long-term effects of domestic violence can include physical injuries, mental health issues, substance abuse, and financial problems.      "
+      ]
+    },
+    
+    {
+      "tag": "LegalConsequesnce",
+      "patterns": ["What are the legal consequences of domestic violence?      "        
+      ],
+      "responses": ["The legal consequences of domestic violence can include arrest, jail time, fines, and a criminal record.      "
+      ]
+    },
+    
+    {
+      "tag": "Prevention",
+      "patterns": ["How can we prevent domestic violence? "        
+      ],
+      "responses": ["We can prevent domestic violence by promoting healthy relationships, educating people about the warning signs of abuse, and holding abusers accountable for their actions.      "
+      ]
+    },
+    
+    {
+      "tag": "cycle",
+      "patterns": ["What is the cycle of domestic violence ?"        
+      ],
+      "responses": ["The cycle of domestic violence is a pattern of behavior that includes tension building, an abusive incident, reconciliation, and a calm period.  "
+      ]
+    },
+    
+    {
+      "tag": "Gaslighting",
+      "patterns": ["What is gaslighting?"     
+      ],
+      "responses": ["Gaslighting is a form of emotional abuse in which the abuser manipulates the victim into doubting their own memory, perception, or sanity."
+      ]
+    },
+    
+    {
+      "tag": "Emotional Abuse",
+      "patterns": ["What is financial abuse?      "        
+      ],
+      "responses": ["Emotional abuse is a form of domestic violence in which the abuser uses words, actions, or behaviors to control, intimidate, or manipulate the victim.      "
+      ]
+    },
+    
+    {
+      "tag": "FinancialAbuse",
+      "patterns": ["What is financial abuse?      "        
+      ],
+      "responses": ["Financial abuse is a form of domestic violence in which the abuser controls the victim's finances and restricts their access to money.      "
+      ]
+    },
+    
+    {
+      "tag": "physicalabuse?",
+      "patterns": ["What is physical abuse?      "       
+      ],
+      "responses": ["Physical abuse is a form of domestic violence in which the abuser uses physical force to control, intimidate, or harm the victim.    "
+      ]
+    },
+    
+    {
+      "tag": "SexualAbuse",
+      "patterns": ["What is Sexual abuse?      "        
+      ],
+      "responses": ["Sexual abuse is a form of domestic violence in which the abuser uses sex or sexual acts to control, intimidate, or harm the victim.   "
+      ]
+    },
+    
+    {
+      "tag": "PsychologiesAbuse",
+      "patterns": ["What is Psychologies abuse?      "        
+      ],
+      "responses": ["Psychological abuse is a form of domestic violence in which the abuser uses words, actions, or behaviors to control, intimidate, or manipulate the victim.     "
+      ]
+    },
+    
+    {
+      "tag": "Stalking",
+      "patterns": ["What is stalking?     "        
+      ],
+      "responses": ["Stalking is a form of domestic violence in which the abuser follows, harasses, or threatens the victim.  "
+      ]
+    },
+    
+    {
+      "tag": "restrainingorder",
+      "patterns": ["What is a restraining order?     "        
+      ],
+      "responses": ["A restraining order is a legal order that prohibits an abuser from contacting or coming near the victim."
+      ]
+    },
+    
+    {
+      "tag": "violenceshelter?",
+      "patterns": ["What is financial abuse?      "        
+      ],
+      "responses": ["   A domestic violence shelter is a safe place where victims of domestic violence can go to escape abuse and get support.     "
+      ]
+    },
+    {
+      "tag": "violencehotline",
+      "patterns": ["What is a domestic violence hotline? ", "I want to report abuse" , "help" , "please help"     
+      ],
+      "responses": ["A domestic violence hotline is a phone number that victims of domestic violence can call to get help and support. You can call to 987 to report."
+      ]
+    },
+    
+    {
+      "tag": "NationalDomesticViolenceHotline     ",
+      "patterns": ["What is the National Domestic Violence Hotline?      "        
+      ],
+      "responses": ["The National Domestic Violence Hotline is a 24/7 hotline that provides support and resources to victims of domestic violence.      "
+      ]
+    },
+    
+    {
+      "tag": "ViolenceAgainstWomenAct",
+      "patterns": ["What is the Violence Against Women Act?     "        
+      ],
+      "responses": ["The Violence Against Women Act is a federal law that provides funding for programs that support victims of domestic violence.    "
+      ]
+    },
+    
+    {
+      "tag": "FamilyViolencePrevention",
+      "patterns": ["What is the Family Violence Prevention and Services Act?     "        
+      ],
+      "responses": ["The Family Violence Prevention and Services Act is a federal law that provides funding for programs that support victims of domestic violence.      "
+      ]
+    },
+    
+    {
+      "tag": "domesticviolenceonchildren",
+      "patterns": ["What is the impact of domestic violence on children?    "        
+      ],
+      "responses": ["The impact of domestic violence on children can include physical injuries, mental health issues, and behavioral problems.   "
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
     }
   ]
 }
