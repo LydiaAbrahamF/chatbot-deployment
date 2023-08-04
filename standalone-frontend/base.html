@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<meta name="viewport" content="width=device-width">
 <html lang="en">
 <link rel="stylesheet" href="style.css">
 
@@ -25,15 +26,18 @@
             <div class="chatbox__footer">
                 <input type="text" placeholder="Write a message...">
                 <button class="chatbox__send--footer send__button">Send</button>
+                <button class="chatbox__send--footer tts__button"><img src="./images/text-to-speech.svg" title="btnimg"/></button>
             </div>
         </div>
         <div class="chatbox__button">
-            <button><img src="./images/chatbox-icon.svg" /></button>
+            <button><img src="./images/chatbox-icon.svg" title="btnimg"/></button>
         </div>
     </div>
 </div>
-
-    <script src="./app.js"></script>
-
+    
+    <script>
+        $SCRIPT_ROOT = request.script_root|tojson ;
+    </script> 
+<script src="app.js"text/javascript" src="{{ url_for('static', filename='app.js')}}"></script>
 </body>
 </html>
